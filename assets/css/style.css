@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h4, a, label, p, li{
+    font-family: 'Nunito', sans-serif;
+}
+
+nav {
+    width: 100%;
+    background-color: #d45f68;
+    position: fixed;
+    top: 0;
+    z-index: 100;
+}
+
+nav ul{
+    text-align: center;
+    display: flex;
+    justify-content: flex-end;
+}
+
+nav ul li{
+    list-style:none
+}
+
+nav a{
+    padding: 10px 10px;
+    text-decoration: none;
+    color: white;
+    font-size: 14pt;
+}
+
+nav a:hover{
+    color: white;
+ }
+
+.text-center{
+    text-align: center;
+ }
+ 
+ #logoGeneration{
+    width: 100px;
+    height: 42,86px;
+    margin-left: 50px;
+    margin-right: 200px;
+ }
+
+.paddingTD{
+    padding-top: 30px;
+    padding-bottom: 15px;
+}
+
+.corTitulo{
+    color: #db6247;
+    font-size: 20pt;
+}
+
+#sobreG{
+    margin-top: 70px;
+}
+
+#sobreGeneration{
+    margin-right: 100px;
+    margin-left: 100px;
+}
+
+#container-sobreGen{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#video-sobreGen{
+    margin-right: 25px;
+ }
+
+#texto-sobreGen{
+    margin-left: 25px;
+    color: #0074b9;
+    font-size: 15pt;
+    text-align: justify;
+ }
+
+ #container-sobreCurso{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+ 
+ #sobreCurso{
+    margin-right: 100px;
+    margin-left: 100px;
+    font-size: 14pt;
+}
+
+#texto-sobreCurso{
+    margin-left: 25px;
+    color: #0074b9;
+    font-size: 15pt;
+    text-align: justify;
+ }
+
+#img-react{
+    width: 400px;
+    height: 300px;
+ }
+
+#container-curriculo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#curriculoCurso{
+    margin-right: 100px;
+    margin-left: 100px;
+}
+
+.corBloco{
+    color: #9d8c09;
+    font-size: 14pt;
+}
+
+
+ #container-curriculo div{
+    border-style: dashed;
+    border-color: #9d8c09;
+    color:  #0074b9;
+    font-size: 15pt;
+    padding: 10px 10px 10px 10px;
+    text-align: justify;
+ }
+
+ #container-curriculo ul{
+    list-style: none;
+    padding: 0;
+ }
+
+ #container-trabalho {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+ #trabalho{
+    margin-right: 100px;
+    margin-left: 100px;
+    font-size: 14pt;
+}
+
+#img-trabalho{
+    width: 450px;
+    height: 300px;
+    border-radius: 10%;
+}
+
+#texto-trabalho{
+    margin-right: 25px;
+    color: #0074b9;
+    font-size: 15pt;
+    text-align: justify;
+ }
+
+
+ .tm-icone{
+    width: 50px;
+    height: 50px;
+ }
+ 
+ .p-30{
+    padding: 30px;
+ }
+ 
+ #container-footer{
+    display: flex;
+    justify-content: center;
+    
+ }
+
+#bg-footer{
+    background-color: #d45f68;
+}
+
+footer p{
+    color: white;
+    font-size: 13pt;
+}
+
+
+/*
+#d45f68
+#db6247
+#9d8c09
+#0074b9
+*/
