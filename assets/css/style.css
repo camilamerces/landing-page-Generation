@@ -1,12 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
 
+/* Cores:
+#d45f68
+#db6247
+#9d8c09
+#0074b9
+*/
+
 body {
     margin: 0;
     padding: 0;
 }
 
-h1, h2, h4, a, label, p, li{
+h1, h2, h4, a, label, p, li, button, select {
     font-family: 'Nunito', sans-serif;
+}
+
+h1, h2, h4{
+   text-align: center;
 }
 
 nav {
@@ -17,99 +28,94 @@ nav {
     z-index: 100;
 }
 
-nav ul{
+nav ul {
     text-align: center;
     display: flex;
     justify-content: flex-end;
 }
 
-nav ul li{
-    list-style:none
+nav ul li {
+    list-style:none;
+    
 }
 
-nav a{
+nav a {
     padding: 10px 10px;
     text-decoration: none;
     color: white;
     font-size: 14pt;
 }
 
-nav a:hover{
-    color: white;
- }
+nav a:hover {
+    color: black;
+}
 
-.text-center{
-    text-align: center;
- }
- 
- #logoGeneration{
+#logo-generation {
     width: 100px;
     height: 42,86px;
     margin-left: 50px;
-    margin-right: 200px;
- }
+    margin-right: 150px;
+}
 
-.paddingTD{
+.p-top-down {
     padding-top: 30px;
     padding-bottom: 15px;
 }
 
-.corTitulo{
+.titulo-cor {
     color: #db6247;
     font-size: 20pt;
 }
 
-#sobreG{
-    margin-top: 70px;
+#sobre-generation {
+    margin-top: 100px;
 }
 
-#sobreGeneration{
-    margin-right: 100px;
-    margin-left: 100px;
-}
-
-#container-sobreGen{
+#container-generation {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
+    margin-right: 100px;
+    margin-left: 120px;
 }
 
-#video-sobreGen{
+#video-generation {
     margin-right: 25px;
- }
+    margin-top: 120px;
+}
 
-#texto-sobreGen{
+#texto-generation {
     margin-left: 25px;
     color: #0074b9;
     font-size: 15pt;
     text-align: justify;
- }
+}
 
- #container-sobreCurso{
+#container-curso {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
 }
  
- #sobreCurso{
+#curso {
     margin-right: 100px;
     margin-left: 100px;
     font-size: 14pt;
 }
 
-#texto-sobreCurso{
+#texto-curso {
     margin-left: 25px;
     color: #0074b9;
     font-size: 15pt;
     text-align: justify;
- }
+}
 
-#img-react{
+#img-react {
     width: 400px;
     height: 300px;
- }
+}
 
 #container-curriculo {
     display: flex;
@@ -118,85 +124,105 @@ nav a:hover{
     align-items: center;
 }
 
-#curriculoCurso{
+#curriculo {
     margin-right: 100px;
     margin-left: 100px;
 }
 
-.corBloco{
+.cor-bloco {
     color: #9d8c09;
     font-size: 14pt;
 }
 
-
- #container-curriculo div{
+#container-curriculo div {
     border-style: dashed;
     border-color: #9d8c09;
     color:  #0074b9;
     font-size: 15pt;
     padding: 10px 10px 10px 10px;
     text-align: justify;
- }
+}
 
- #container-curriculo ul{
+#container-curriculo ul {
     list-style: none;
     padding: 0;
- }
+}
 
- #container-trabalho {
+#container-trabalho {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-}
- #trabalho{
     margin-right: 100px;
     margin-left: 100px;
-    font-size: 14pt;
 }
 
-#img-trabalho{
+#img-trabalho {
     width: 450px;
     height: 300px;
-    border-radius: 10%;
+    border-radius: 5%;
+    margin-top: 70px
 }
 
-#texto-trabalho{
+#texto-trabalho {
     margin-right: 25px;
     color: #0074b9;
     font-size: 15pt;
     text-align: justify;
- }
-
-
- .tm-icone{
-    width: 50px;
-    height: 50px;
- }
- 
- .p-30{
-    padding: 30px;
- }
- 
- #container-footer{
-    display: flex;
-    justify-content: center;
-    
- }
-
-#bg-footer{
-    background-color: #d45f68;
 }
 
-footer p{
+#inscricao div.row{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+ }
+ 
+#inscricao div.row-2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+
+#inscricao div.row-3{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 20px;
+    size: 30;   
+}
+
+.button {
+    background-color: #d45f68;
+    font-size: 11pt;
+}
+
+#inscricao {
+    margin-right: 400px;
+    margin-left: 400px;
+    margin-bottom: 50px;
+}
+
+.tm-icone {
+    width: 50px;
+    height: 50px;
+}
+ 
+.p-30 {
+    padding: 30px;
+}
+ 
+#container-footer {
+    display: flex;
+    justify-content: center;
+}
+
+#bg-footer {
+    background-color: #d45f68;
+    text-align: center;
+}
+
+footer p {
     color: white;
     font-size: 13pt;
 }
-
-
-/*
-#d45f68
-#db6247
-#9d8c09
-#0074b9
-*/
